@@ -15,8 +15,7 @@ import re
 
 
 #####################################
-#### Imperial high command ##########
-'''
+
 1) Each method is to take in a mesh, trace and then output a trace. 
 2) Keep in mind it's certain I'm gonna forget this plotly shit so keep that in mind when writing this code. 
 3) The cleanse_unpack is to allow for forgetting the ** when inputting plotting kwargs. This easy fix must be
@@ -320,5 +319,6 @@ def plot_couple_vectors_onto_fig(mesh, vector1, fig = None, vector2 = None, vect
     
     
         
+
 
 
